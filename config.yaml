@@ -1,7 +1,7 @@
-R1: '/data/GSRunit/BSPC/trip-ctcf/20220422_3xctcf_trip/Undetermined_S0_R1_001.fastq.gz'
-R2: '/data/GSRunit/BSPC/trip-ctcf/20220422_3xctcf_trip/Undetermined_S0_R2_001.fastq.gz'
+R1: ''
+R2: ''
 
-perl_script : '/data/NICHD-core0/analysis/rocha/trip-ctcf/original_code/trip/trip0.5.pl'
+perl_script : ''
 
 sampletable: 'sampletable.tsv'
 
@@ -14,7 +14,7 @@ map_pat1: "GTCACAAGGGCCGGCCACAACTCGAG"
 map_pat2: "TGATC"
 map_pat_rev: "GTACGTCACAATATGATTATCTTTCTAGGGTTAA"
 cores: 6
-bowtie_base: "/fdb/igenomes/Mus_musculus/UCSC/mm10/Sequence/Bowtie2Index/genome"
+bowtie_base: ""
 max_dist_for: 500
 max_dist_rev: 20
 min_counts: 5
